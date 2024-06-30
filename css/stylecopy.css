@@ -11,10 +11,9 @@ header{
     background-color: black;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding: 14px;
-    top: 0;
     position: sticky;
+    top: 0;
 }
 main{
     background-image: url(../assets/Img1.jpg);
@@ -23,23 +22,18 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    overflow: auto;
 }
 .item1{
-    background-color: blueviolet;
+    background-color: blue;
     height: 100vh;
     width: 100%;
     opacity: 0.3;
-    position: absolute;
 }
 .item2{
-    z-index: 1;
+    position: absolute;
     background-color: antiquewhite;
-    width: 100px;
-    padding: 12px;
+    padding: 20px;
 }
 .item3{
     background-color: black;
-    display: flex;
-    justify-content: space-around;
 }

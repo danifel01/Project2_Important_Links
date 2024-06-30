@@ -7,10 +7,13 @@
     text-decoration: none;
 }
 header{
+    z-index: 1;
     background-color: black;
     display: flex;
     justify-content: space-around;
     padding: 12px;
+    position: sticky;
+    top: 0;
 }
 main{
     background-image: url(../assets/Img1.jpg);
@@ -31,7 +34,7 @@ main{
     z-index: 1;
     background-color: black;
     padding: 5px;
-    margin: 5px;
+    margin: 50px;
 }
 .item3{
     background-color: aliceblue;
