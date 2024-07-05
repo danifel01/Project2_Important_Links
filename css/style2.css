@@ -1,17 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    color: bisque;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    list-style: none;
     text-decoration: none;
+    list-style: none;
+    color: bisque;
 }
 header{
     z-index: 1;
     background-color: black;
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding: 12px;
     position: sticky;
     top: 0;
 }
@@ -30,6 +30,12 @@ main{
     opacity: 0.3;
 }
 .item2{
-    background-color: black;
+    z-index: 1;
+    background-color: antiquewhite;
     position: absolute;
+    padding: 10px;
+}
+.item3{
+    background-color: black;
+    padding: 12px;
 }
